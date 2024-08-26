@@ -1,8 +1,3 @@
-#(©)CodeXBotz
-
-
-
-
 import os
 import logging
 from logging.handlers import RotatingFileHandler
@@ -10,36 +5,36 @@ from logging.handlers import RotatingFileHandler
 
 
 #Bot token @Botfather
-TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "")
+TG_BOT_TOKEN = os.environ.get("TG_BOT_TOKEN", "7451104209:AAGzvdhr6W0St3NNlNucrrnsAwD1Xe3h8QA")
 
 #Your API ID from my.telegram.org
-APP_ID = int(os.environ.get("APP_ID", ""))
+APP_ID = int(os.environ.get("APP_ID", "22420301"))
 
 #Your API Hash from my.telegram.org
-API_HASH = os.environ.get("API_HASH", "")
+API_HASH = os.environ.get("API_HASH", "17258037d09cd4f1030ee0bddab11170")
 
 #Your db channel Id
-CHANNEL_ID = int(os.environ.get("CHANNEL_ID", ""))
+CHANNEL_ID = int(os.environ.get("CHANNEL_ID", "-1002159210449"))
 
 #OWNER ID
-OWNER_ID = int(os.environ.get("OWNER_ID", ""))
+OWNER_ID = int(os.environ.get("OWNER_ID", "5934870747"))
 
 #Port
 PORT = os.environ.get("PORT", "8080")
 
 #Database 
-DB_URI = "mongodb+srv://mrjackjackiechan:mrjackjackiechan@cluster0.cojfvuo.mongodb.net/?retryWrites=true&w=majority"
+DB_URI = "mongodb+srv://sarikawalzade80:AQwq2CoZj5QSmc2w@cluster0.xtdgrra.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0"
 DB_NAME = os.environ.get("DATABASE_NAME", "filesharexbot")
 
-SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "publicearn.com")
-SHORTLINK_API = os.environ.get("SHORTLINK_API", "a8f5b3abb4b6c78581c3d96ec5049f3047bee268")
+SHORTLINK_URL = os.environ.get("SHORTLINK_URL", "linkshortify.com")
+SHORTLINK_API = os.environ.get("SHORTLINK_API", "20dd473273c487ae6cdddef2cfe6e66b5d7169d1")
 VERIFY_EXPIRE = int(os.environ.get('VERIFY_EXPIRE', 86400)) # Add time in seconds
 IS_VERIFY = os.environ.get("IS_VERIFY", "True")
 TUT_VID = os.environ.get("TUT_VID","leakhubd/1264")
 
 
 #force sub channel id, if you want enable force sub
-FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", ""))
+FORCE_SUB_CHANNEL = int(os.environ.get("FORCE_SUB_CHANNEL", "-1002005149352"))
 
 TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
